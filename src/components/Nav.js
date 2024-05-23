@@ -4,6 +4,7 @@ import header from '../images/header.png';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import logo from '../images/logo.png'
 
 const Navbar = () => {
   const menuRef = useRef(null);
@@ -48,8 +49,10 @@ const Navbar = () => {
 
   return (
     <div className='body'>
+      <div style={{display:'flex'}}>
+        <img src={logo} alt='logo' style={{width:'30px', height:'50px', marginLeft:'2%', paddingTop:'10px'}}/>
         <h2 className='intro'>discover Maria's work</h2>
-        
+      </div>
         <div className='container'>
             <div className="Menu-list" ref={menuRef} data-offset="20">
                 <div
