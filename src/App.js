@@ -3,7 +3,9 @@ import React, { useState, useEffect } from "react";
 import Navbar from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
-import AddForm from './components/AddForm'
+import AddForm from './components/AddForm';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
           onSubmit={handleAddProject}
           onClose={() => setShowForm(false)}
           />)}
+      <Contact />
+      <Footer />
     </div>
   );
 }
