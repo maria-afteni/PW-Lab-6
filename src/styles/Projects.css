@@ -1,0 +1,78 @@
+.title-p {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 60px;
+    font-family:  cursive;
+    font-weight: normal;
+    margin-bottom: 0px;
+    
+  }
+
+.btn {
+  margin-left: 5%;
+  background-color: #4A6572;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #5b889e;
+}
+
+.location-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 35em));
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.location-list.dark {
+  background-color: #021124;
+  color: #d8c3a5;
+}
+
+.location-item {
+  background-color: none;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #d5bdaf;
+  box-shadow: 7px 7px 7px #d5bdafc8;
+  color: #333;
+  overflow: hidden;
+}
+
+.location-item.dark {
+  background-color: #021124;
+  border: 2px solid #eae7dc;
+  box-shadow: 7px 7px 7px #d8c3a52d;
+  color: #eae7dc;
+}
+
+.location-title-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-title-section.dark {
+  color: #eae7dc;
+}
+
+.favorite-checkbox {
+  height: auto;
+  width: 2em;
+  display: flex;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 600;
+}
+

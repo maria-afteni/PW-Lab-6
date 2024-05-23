@@ -1,0 +1,107 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup.dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: #d5bdafbe;
+    width: 600px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .popup-content2 {
+    background-color: #d5bdaf;
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .popup-content.dark {
+    background-color: #021124;
+  }
+  
+  .close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #000;
+  }
+  
+  form {
+    margin-top: 2em;
+  }
+  
+  form.dark {
+    background-color: #021124;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #d5bdafbe;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input.dark,
+  textarea.dark {
+    background-color: #021124;
+    color: #d5bdafbe;
+  }
+  
+  textarea {
+    min-height: 10em;
+  }
+  
+ 
+  
+  .form-group.dark {
+    background-color: #021124;
+    color: #d8c3a5;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .submit-btn {
+    background-color: #4A6572;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 2% 5%;
+    margin-left: 40%;
+    margin-top: 2%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #5b889e;
+  }
+  
+  .submit-btn.dark {
+    color: #021124;
+  }
