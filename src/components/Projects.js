@@ -3,7 +3,12 @@ import '../styles/Projects.css'
 
 
 
-const Projects = ({projects, onShowForm}) => {
+const Projects = ({projects, onShowForm, onDeleteProject}) => {
+
+  const handleDeleteProject = (projectId) => {
+    onDeleteProject(projectId);
+  };
+
   return (
     <div >
       <h2 className='title-p' id='projects'>PROJECTS</h2>
@@ -18,9 +23,11 @@ const Projects = ({projects, onShowForm}) => {
           {Object.keys(projects).length > 0 ? (
               Object.keys(projects).map(key => (
                 <div key={key} className='location-item'>
-                  <h3>{projects[key].name}</h3>
+                  <button className='close-btn' onClick={() => onDeleteProject(key)}>X</button>
+                  <h3 style={{marginTop:'0'}}>{projects[key].name}</h3>
                   <p>{projects[key].description}</p>
                   <p>{projects[key].tech}</p>
+                  
                 </div>
               ))
             ) : (

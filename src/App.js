@@ -22,9 +22,16 @@ function App() {
 
   const handleAddProject = (projectData) => {
     setProjects({...projects, [projectId]: projectData});
-    localStorage.setItem("locations", JSON.stringify({...projects, [projectId]: projectData}));
+    localStorage.setItem("projects", JSON.stringify({...projects, [projectId]: projectData}));
     setProjectId(projectId + 1);
-    localStorage.setItem("locationId", projectId + 1);
+    localStorage.setItem("projectId", projectId + 1);
+  };
+
+  const handleDeleteProject = (projectId) => {
+    const updatedProjects = { ...projects };
+    delete updatedProjects[projectId];
+    setProjects(updatedProjects);
+    localStorage.setItem("projects", JSON.stringify(updatedProjects));
   };
 
   return (
@@ -34,7 +41,8 @@ function App() {
       <About />
       <Projects 
         projects={projects}
-        onShowForm={() => setShowForm(true)} />
+        onShowForm={() => setShowForm(true)}
+        onDeleteProject={handleDeleteProject} />
       {showForm && (
         <AddForm
           onSubmit={handleAddProject}
