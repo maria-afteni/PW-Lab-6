@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/maria-afteni/PW-Lab-6/static/css/main.84e775c2.css",
-    "main.js": "/maria-afteni/PW-Lab-6/static/js/main.75a66b74.js",
+    "main.css": "/maria-afteni/PW-Lab-6/static/css/main.2ce9f0eb.css",
+    "main.js": "/maria-afteni/PW-Lab-6/static/js/main.d7c9b480.js",
     "static/js/453.1407b060.chunk.js": "/maria-afteni/PW-Lab-6/static/js/453.1407b060.chunk.js",
     "static/media/about.png": "/maria-afteni/PW-Lab-6/static/media/about.ad388b94f2973831efef.png",
     "static/media/insta.webp": "/maria-afteni/PW-Lab-6/static/media/insta.ac31e22207e23b7186e8.webp",
     "static/media/header.png": "/maria-afteni/PW-Lab-6/static/media/header.f596bbfd6c9279a51c4d.png",
     "index.html": "/maria-afteni/PW-Lab-6/index.html",
-    "main.84e775c2.css.map": "/maria-afteni/PW-Lab-6/static/css/main.84e775c2.css.map",
-    "main.75a66b74.js.map": "/maria-afteni/PW-Lab-6/static/js/main.75a66b74.js.map",
+    "main.2ce9f0eb.css.map": "/maria-afteni/PW-Lab-6/static/css/main.2ce9f0eb.css.map",
+    "main.d7c9b480.js.map": "/maria-afteni/PW-Lab-6/static/js/main.d7c9b480.js.map",
     "453.1407b060.chunk.js.map": "/maria-afteni/PW-Lab-6/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e775c2.css",
-    "static/js/main.75a66b74.js"
+    "static/css/main.2ce9f0eb.css",
+    "static/js/main.d7c9b480.js"
   ]
 }
